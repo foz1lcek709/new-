@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    margin: 0 auto;
+    max-width: 1440px;
+    background-color: whitesmoke;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+
+  }
+  
+  .links ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: gray;
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
+  .section-one {
+    display: flex;
+    justify-content: space-between;
+    padding: 83px 0;
+  }
+  .section-one-left h1 {
+    font-size: 48px;
+    font-family: "Mulish";
+     font-family: Mulish;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left; 
+  }
+  .btn{
+    margin-top: 50px;
+    background-color: blue;
+    width: 200px;
+    padding: 20px;
+    color: white;
+    border-radius: 50px;
+  }
+  
+  .section-one-left p{
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;    
+    margin-top: 20px;
+  }
+
+.section-two h2{
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+  
+}
+.section-three{
+  border: 1px solid white;
+  width: 380px;
+  padding: 50px;
+  border-radius: 10px;
+  margin-top: 30px;
+  background-color: white;
+
+}
+
+
+
+  .section-two p{
+font-family: Mulish;
+font-size: 18px;
+font-weight: 300;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+margin-top: 50px;
+  }
+  .section-three h3{
+    font-family: Mulish;
+font-size: 24px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: left;
+
+
+  }
+  .big{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .section-three p{
+font-family: Mulish;
+font-size: 16px;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+  }
+
+  .down{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .tugma{
+    border: 1px solid skyblue;
+    border-radius: 50px;
+  }
+
